@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited,a:hover {
+	text-decoration: none;
+}
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+.header .menu{
+    color: magenta;
+}
+.list_menu>li>a{
+    color: mediumspringgreen;
+}
+.exit>a{
+    color: pink;
+}
+/* ===========================================main================================================ */
+main div{
+    color: orange;
+}
+.content{
+    color: blue;
+}
+h1 {
+    color: chartreuse;
+}
+h2{
+    color: deeppink;
+}
+div>#title_h2{
+    color: rgb(223, 231, 107);
+} 
+ol{
+    color: maroon;
+}
+#id_div{
+    color: gold;
+}
+p.text.subtitle{
+    color: red;
+}
+main ul{
+    color: green;
+}
+.li_line1, .li_line2 {
+    color: lawngreen;
+}
+h3 + p {
+    color: lightblue;
+}
+p ~ .list_bmw {
+    color: magenta;
+}
+/* ====================================footer============================================ */
+footer{
+    background-color: #f6f6f6;
+}
+.footer_block.footer_title{
+    color:#2d4059 ;
+}
+.footer_block a{
+    color:red;
+}
+p.footer_subtitle{
+    color: #68d834;
+}
+#foot_main{
+    color: blueviolet;
+}
